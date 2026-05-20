@@ -1,0 +1,40 @@
+{
+  "name": "Jhoely · Asistente Personal",
+  "short_name": "Jhoely",
+  "description": "Tu asistente personal de IA siempre contigo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0612",
+  "theme_color": "#b388ff",
+  "orientation": "portrait",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Chat con Jhoely",
+      "short_name": "Chat",
+      "url": "/?tab=chat",
+      "description": "Abre el chat directo con Jhoely"
+    },
+    {
+      "name": "Mis Tareas",
+      "short_name": "Tareas",
+      "url": "/?tab=tasks",
+      "description": "Ver tareas pendientes"
+    }
+  ]
+}
